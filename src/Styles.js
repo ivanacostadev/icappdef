@@ -672,10 +672,12 @@ const styles = StyleSheet.create({
   },
   txtmisdatosContent:{
   
-    fontSize:25,
+    fontSize:20,
     textAlign:"center",
     fontWeight:"200",
-    marginBottom:20
+    marginBottom:20,
+    color:"#010101",
+    fontWeight:'bolder'
 
   },
  
@@ -1234,6 +1236,16 @@ txtLogint:{
   fontWeight:"bold",
   color:"#000000",
   marginBottom:20,
+
+
+},
+txtalertsempty:{
+  textAlign:"center",
+  marginTop:20,
+  fontSize:30,
+  fontWeight:"bold",
+  color:"#0D5B71",
+  margin:30,
 
 
 },

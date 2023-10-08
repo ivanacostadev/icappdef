@@ -92,8 +92,7 @@ const gotoInvest=()=>{
 
           <Pressable onPress={gotoInvest} style={styles.botininvestProfile}>
               <Image source={imagePath.inversion} style={styles.icon} />
-
-              <Text style={styles.txtsubmithome}>MI INVERSION </Text>
+              <Text style={styles.txtsubmithome}> INVERSION </Text>
             </Pressable>
 
             {flaginvest == true ?
@@ -107,7 +106,6 @@ const gotoInvest=()=>{
                     <Text style={styles.txtmisdatosContent}>D&iacute;a de Pago: {inversion.diaPago}</Text>
                     <Text style={styles.txtmisdatosContent}>Tasa: {inversion.tasa}</Text>
                     <Text style={styles.txtmisdatosContent}>Empresa: {inversion.empresa}</Text>
-  
                   </View>
                 ))}
               </View>

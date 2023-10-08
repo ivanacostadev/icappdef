@@ -132,6 +132,7 @@ function CustomDrawer(props) {
 
 
         <View>
+          {/*
            <DrawerItem
             style={{
               backgroundColor: "#ffff",
@@ -152,6 +153,7 @@ function CustomDrawer(props) {
               textAlign: "center",
             }}
           />
+          */}
 
           <DrawerItem
             style={{
